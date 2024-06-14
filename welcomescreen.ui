@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WelcomeScreen</class>
+ <widget class="QWidget" name="WelcomeScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WelcomeScreen</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,2,2">
+   <item>
+    <widget class="QWidget" name="top" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="middle" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="bottom" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
